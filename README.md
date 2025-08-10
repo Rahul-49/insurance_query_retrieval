@@ -15,14 +15,16 @@ Supports local API endpoint testing via **Grok** 🌐.
 ---
 
 ## 📂 Project Structure
+```plaintext
 your-project
-├── 📄 main.py # FastAPI entrypoint
-├── 📄 routes.py # Main API endpoints
-├── 📄 hackrx_routes.py # HackRx-specific routes
-├── 📄 document_utils.py # File extraction & chunking
-├── 📄 gemini_utils.py # Gemini API helpers
-├── 📄 pinecone_utils.py # Pinecone client helpers
-└── 📄 requirements.txt # Dependencies
+├── 📄 main.py              # FastAPI entrypoint
+├── 📄 routes.py            # Main API endpoints
+├── 📄 hackrx_routes.py     # HackRx-specific routes
+├── 📄 document_utils.py    # File extraction & chunking
+├── 📄 gemini_utils.py      # Gemini API helpers
+├── 📄 pinecone_utils.py    # Pinecone client helpers
+└── 📄 requirements.txt     # Dependencies
+```
 
 ## ⚙️ Installation & Setup
 
