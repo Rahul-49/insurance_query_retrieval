@@ -1,0 +1,16 @@
+# requirements.txt
+fastapi
+uvicorn
+pinecone
+pdfplumber
+python-docx
+python-dotenv
+google-generativeai
+nltk
+langchain
+langchain-google-genai
+langchain-pinecone
+langchain-community
+requests
+six
+PyPDF2
