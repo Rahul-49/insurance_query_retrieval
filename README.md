@@ -15,14 +15,14 @@ Supports local API endpoint testing via **Grok** 🌐.
 ---
 
 ## 📂 Project Structure
-main.py # FastAPI entrypoint
-routes.py # Main API endpoints
-hackrx_routes.py # HackRx-specific routes
-document_utils.py # File extraction & chunking
-gemini_utils.py # Gemini API helpers
-pinecone_utils.py # Pinecone client helpers
-requirements.txt # Dependencies
-
+your-project
+├── 📄 main.py # FastAPI entrypoint
+├── 📄 routes.py # Main API endpoints
+├── 📄 hackrx_routes.py # HackRx-specific routes
+├── 📄 document_utils.py # File extraction & chunking
+├── 📄 gemini_utils.py # Gemini API helpers
+├── 📄 pinecone_utils.py # Pinecone client helpers
+└── 📄 requirements.txt # Dependencies
 
 ## ⚙️ Installation & Setup
 
@@ -59,8 +59,8 @@ Server will start at:
 🧪 Testing with Grok (Local API Endpoint)
 You can test your endpoints locally using Grok or any API client (Postman, curl).
 Example POST request using postman:
-(Screenshot 2025-08-10 220332.png)
-(Screenshot 2025-08-10 220344.png)
+![Postman 1](Screenshot%202025-08-10%20220332.png)  
+![Postman 2](Screenshot%202025-08-10%20220344.png)
 
 📜 API Endpoints
 POST /api/v1/hackrx/run
